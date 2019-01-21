@@ -20,7 +20,7 @@ function detect (win) {
       }
 
       win.postMessage({
-        devtoolsEnabled: Vue,
+        devtoolsEnabled: true,
         vueDetected: true,
         nuxtDetected: true
       }, '*')
